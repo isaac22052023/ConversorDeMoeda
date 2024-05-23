@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Moeda 💲</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Conversor de Moeda 💲</h1>
+    <div>
+        <ul>
+            <li>BRL - Real</li>
+            <li>USD - Dólar</li>
+            <li>EUR - Euro</li>
+            <li>GBP - Libra</li>
+            <li>CAD - Dólar Canadense</li>
+            <li>CHF - Franco suíço</li>
+        </ul>
+
+        <br>
+
+    </div>
+    <form id="conversion-form">
+        <input type="number" id="amount" placeholder="Insira o valor">
+        <select id="from-currency">
+            <option value="BRL">BRL</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+        </select>
+        <select id="to-currency">
+            <option value="USD">USD</option>
+            <option value="BRL">BRL</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+        </select>
+        <button type="submit">Converter</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
